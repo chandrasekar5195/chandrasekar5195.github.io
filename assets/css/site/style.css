@@ -16,7 +16,7 @@ body,html{
 }
 
 .full {
-    background-image: url("https://github.com/chandrasekar5195/chandrasekar5195.github.io/blob/master/assets/images/forest.JPG");
+    background-image: url("../../boat.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
