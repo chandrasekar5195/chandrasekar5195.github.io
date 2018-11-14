@@ -1,0 +1,50 @@
+.navbar{
+    background: rgba(255,255,255,0.6);
+    font-family: Adobe Caslon;
+    font-size: 14pt; 
+    color: rgba(0,0,0,1);  
+    font-weight: 700; 
+}
+
+.navbar-brand{
+    margin-left: 20%;
+}
+
+body,html{
+    height: 100%;
+    margin: 0;
+}
+
+.full {
+    background-image: url("../../images/forest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center;
+
+}
+
+#navbar01items{
+    margin-right: 20%;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .navbar {
+        background: rgba(255,255,255,0.7);
+    }
+    .navbar-brand{
+        margin-left: 2%;
+    }
+    #navbar01items{
+        margin-right: 0%;
+    }
+}
