@@ -30,7 +30,7 @@
 body,html{
     height: 100%;
     margin: 0;
-    background-image: url("../../images/track.jpg");
+    background-image: url(../../images/track.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
