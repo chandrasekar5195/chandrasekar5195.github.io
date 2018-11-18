@@ -20,9 +20,9 @@
     
 #titlefont {
     margin-top: 15%;
-    font-size: 60pt;    
+    font-size: 40pt;    
     text-align: center;
-    font-family: "Mutlu";
+    font-family: 'Fredericka the Great';
     color: rgba(255,255,255,1);
 }
   
@@ -321,9 +321,9 @@ html, body {
     }
     #titlefont {
         margin-top: 5%;
-        font-size: 40pt;    
+        font-size: 34pt;    
         text-align: center;
-        font-family: "Mutlu";
+        font-family: 'Comfortaa';
         /*color: rgba(255,255,255,1);*/
         color: rgba(0,0,0,1);
     }
