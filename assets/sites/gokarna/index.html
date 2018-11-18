@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html> 
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link href="modal.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+
+  </head>
+  <body >
+        <p id="titlefont" >Chandrasekar Venkataraman</p>
+      <nav class="navbar navbar-expand-sm navbar-dark" id="navbar01">
+         
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar01items" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="collapse navbar-collapse justify-content-end" id="navbar01items">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="../../../index.html">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../../../index.html#aboutme_landing">About</a>
+              </li>
+              <li class="nav-item">
+                    <a class="nav-link" href="../../../index.html#gallery_landing">Gallery</a>
+              </li>
+
+
+              <li class="nav-item">
+                      <a class="nav-link" href="#">Blog</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+    <!-- Header -->
+    <div class="header">
+      <h1>Gokarna</h1>
+    </div>
+
+    <!-- Photo Grid -->
+    <div id="photogrid" class="row" > 
+    </div>
+    <h4 id="back"><button type="button" class="btn btn-primary" onclick="history.back()">Back</button></h4>
+
+    <div id="myModal" class="modal">
+      <span class="close cursor" onclick="closeModal()">&times;</span>
+      <div id="modalcontent" class="modal-content">          
+
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+  
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="../../js/modal/modal.js"></script>
+</html>
