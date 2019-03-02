@@ -1,0 +1,173 @@
+/* NAV BAR CSS */
+
+.navbar{
+    margin-top: -5%;
+    margin-right: 10%;
+    background: rgba(0,0,0,0);
+
+}
+.nav .navbar-nav .navbar-brand ul li a {
+    color: rgba(0,0,0,1);
+}
+
+
+#navbar01items{
+    margin-right: 0%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 24pt;
+    font-family: "Alfa Slab One";
+    font-weight: 100;
+}
+
+#back{
+    color: white; 
+    margin-top: -8%; 
+    margin-bottom: 1%; 
+    text-align: center;
+    height: fit-content;
+}
+@font-face {
+    font-family: "Mutlu";
+    src: url("../../fonts/MutluOrnamental.ttf") format('truetype');
+}
+    
+#titlefont {
+    font-size: 20pt;    
+    margin-left: 10%;
+    margin-top: 2%;
+    font-family: 'Comfortaa';
+    color: rgba(255,255,255,1);
+}
+  
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: rgba(0,0,0,0.9);
+    color: white;
+}
+img {
+    border: 2;
+}
+.header {
+    text-align: center;
+    padding: 32px;
+    font-family: 'Lobster', cursive;
+    font-weight: 100;
+}
+
+#photogrid {
+    margin-bottom: 10%;
+}
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/* Create four equal columns that sits next to each other */
+
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+    
+
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-bottom: 8px;
+}
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+    #titlefont {
+        font-size: 25pt;    
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 2%;
+            font-family: "Comfortaa";
+        color: rgba(255,255,255,1);
+    } 
+    #navbar01items{
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-left: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24pt;
+        font-family: "Alfa Slab One";
+        font-weight: 100;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+    .row {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .navbar {
+        background: rgba(255,255,255,0);
+        margin-top: -30%;
+    }
+
+    .header {
+        margin-top: 5%;
+        margin-bottom: -10%;
+    }
+    #navbar01items{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        text-align: center;
+        margin-left: 10%;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 24pt;
+        font-family: "Alfa Slab One";
+        font-weight: 100;
+    }
+    #titlefont {
+        font-size: 25pt;    
+        margin-left: 0%;
+        text-align: center;
+        margin-top: 2%;
+        margin-bottom: 10%;
+            font-family: "Comfortaa";
+        color: rgba(255,255,255,1);
+    }  
+    #back{
+        color: white; 
+        margin-top: -8%; 
+        margin-bottom: 1%; 
+        text-align: center;
+        height: fit-content;
+    }
+}

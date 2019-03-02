@@ -10,12 +10,13 @@
     height: 80%;
     background: rgba(0,0,0,0.5);
     display: flex;
-    flex-direction: column;                     
+    flex-direction: column;                      
 }
 
 #photogrid{
     margin-top: 1%;
     margin-bottom: 1%;
+    overflow: auto;   
 }
 
 #gallerytitle{
@@ -29,63 +30,33 @@
     font-weight: 100;
 }
 
-#viewmore{
-    color: white; 
-    margin-top: -0.5%; 
-    margin-bottom: 1%; 
-    margin-left: auto; 
-    margin-right: auto; 
-    height: fit-content;
-}
-
-#gallery_row_thumbnail{
+.row {
     display: -ms-flexbox; /* IE10 */
     display: flex;
     -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: nowrap;
-    margin-top: 2%;
-    margin-bottom: 2%;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-#gallery_column_thumbnail{
+.column {
     -ms-flex: 25%; /* IE10 */
-    flex: 20%;
-    max-width: 20%;
-    padding: 1%;
-    background: white;
-    display: flex;  
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
 }
 
-#gallery_column_thumbnail p{
-    margin-bottom: -0.5rem;
-    text-align: center;
-    
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    margin-bottom: 8px;
 }
+
 
 @media screen and (max-width: 600px) {
-    #gallery_column_thumbnail{
-        -ms-flex: 25%; /* IE10 */
-        flex: 100%;
-        max-width: 100%;
-        padding: 1%;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        background: white;
-        display: flex;  
-    }
-    #gallery_row_thumbnail{
-        display: -ms-flexbox; /* IE10 */
-        display: flex;
-        -ms-flex-wrap: wrap; /* IE10 */
-        flex-wrap: wrap;
-        margin-top: 2%;
-        margin-bottom: 2%;
-
-        justify-content: center;
-    }
     .full01 {    
-        height: fit-content;
+        height:100%;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -95,19 +66,29 @@
     #photogrid{
         margin-top: 1%;
         margin-bottom: 1%;
-        padding: 8%;
+        padding: 1%;      
+        overflow: auto;
     }
-    #gallery_column_thumbnail p{
-        margin-bottom: 0rem;
-        text-align: center;
-        
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+        padding: 0%;
     }
-    #viewmore{
-        color: white; 
-        margin-top: -10%; 
-        margin-bottom: 5%; 
-        margin-left: auto; 
-        margin-right: auto; 
-        height: fit-content;
+    .row {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #gallery{
+        width: 90%;
+        height: 90%;
+        background: rgba(0,0,0,0.5);
+        display: flex;
+        flex-direction: column;                      
+    }
+    .column img {
+        margin-top: 0px;
+        vertical-align: middle;
+        margin-bottom: 0px;
     }
 }
