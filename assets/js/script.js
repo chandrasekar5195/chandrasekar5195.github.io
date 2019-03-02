@@ -18,20 +18,16 @@ var images=[
   "DSC_0451.jpg",
   "DSC_0468.jpg",
   "DSC_0469.jpg",
-  "DSC_0471.jpg",
-  "DSC_0479.jpg",
-  "DSC_0488.jpg",
-  "DSC_0515.jpg",
-  "DSC_0519.jpg",
+  "DSC_0471.jpg"
 ];
 
 
 var img1,end,j;
-for (i=0;i<4;i++){
+for (i=0;i<5;i++){
   div1=document.createElement("div");
   div1.setAttribute("class","column");
-  j=i*6;
-  end=j+6;
+  j=i*3;
+  end=j+3;
   for(;j<end;j++){
   img1=document.createElement("img");
   img1.src="assets/images/Gokarna/"+images[j];
