@@ -43,7 +43,7 @@ for (i=0;i<images.length;i++){
   div1=document.createElement("div");
   div1.setAttribute("class","mySlides");
   img1=document.createElement("img");
-  img1.src="../../images/Gokarna/"+images[i];
+  img1.src="assets/images/Gokarna/"+images[i];
   img1.setAttribute("id",i);
   img1.setAttribute("width","100%");
   img1.setAttribute("height","100%");
